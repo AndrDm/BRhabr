@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_0" guid="2738bbef-bf63-448b-ac8f-3afb16080fb9" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="40" left="40" width="210" zIndex="4" text="mappView - Ampel" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="RedOFF" top="100" left="60" zIndex="1" backColor="rgba(128, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="YellowOFF" top="240" left="60" zIndex="5" backColor="rgba(128, 128, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="GreenOFF" top="380" left="60" zIndex="6" backColor="rgba(0, 128, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Red" top="100" left="60" zIndex="0" backColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Yellow" top="240" left="60" zIndex="3" backColor="rgba(255, 255, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Green" top="380" left="60" zIndex="2" backColor="rgba(0, 255, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="CountDownGreen" top="500" left="60" zIndex="7" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" showUnit="false" borderStyle="none" textColor="rgba(0, 128, 0, 1)" textAlign="center" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="CountDownRed" top="500" left="60" zIndex="8" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" showUnit="false" borderStyle="none" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="24px" />
+  </Widgets>
+</Content>

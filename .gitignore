@@ -15,3 +15,8 @@
 *.aliases
 *.lvlps
 .cache/
+
+AS4SHA256/Binaries
+AS6TrafficLight/Binaries
+AS4SHA256/Temp
+AS6TrafficLight/Temp

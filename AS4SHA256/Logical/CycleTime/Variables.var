@@ -1,0 +1,3 @@
+VAR
+	CycleTimeTicks : UDINT;
+END_VAR

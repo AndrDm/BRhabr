@@ -1,0 +1,8 @@
+VAR
+	digest : ARRAY[0..31] OF USINT;
+	buffer : ARRAY[0..1048575] OF USINT;
+	cpu_time_used : LREAL;
+	cycle_time : LREAL;
+	cycles_counter : UDINT;
+	MBperSec : LREAL;
+END_VAR

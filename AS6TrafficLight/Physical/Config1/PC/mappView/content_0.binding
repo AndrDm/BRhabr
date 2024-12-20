@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="content_0" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <Binding mode="twoWay">
+      <Source xsi:type="opcUa" refId="::Ampel:LightRed" attribute="value" />
+      <Target xsi:type="brease" contentRefId="content_0" widgetRefId="Red" attribute="visible" />
+    </Binding>
+    <Binding mode="twoWay">
+      <Source xsi:type="opcUa" refId="::Ampel:LightYellow" attribute="value" />
+      <Target xsi:type="brease" contentRefId="content_0" widgetRefId="Yellow" attribute="visible" />
+    </Binding>
+    <Binding mode="twoWay">
+      <Source xsi:type="opcUa" refId="::Ampel:LightGreen" attribute="value" />
+      <Target xsi:type="brease" contentRefId="content_0" widgetRefId="Green" attribute="visible" />
+    </Binding>
+    <Binding mode="twoWay">
+      <Source xsi:type="opcUa" refId="::Ampel:LightRedOFF" attribute="value" />
+      <Target xsi:type="brease" contentRefId="content_0" widgetRefId="RedOFF" attribute="visible" />
+    </Binding>
+    <Binding mode="twoWay">
+      <Source xsi:type="opcUa" refId="::Ampel:LightYellowOFF" attribute="value" />
+      <Target xsi:type="brease" contentRefId="content_0" widgetRefId="YellowOFF" attribute="visible" />
+    </Binding>
+    <Binding mode="twoWay">
+      <Source xsi:type="opcUa" refId="::Ampel:LightGreenOFF" attribute="value" />
+      <Target xsi:type="brease" contentRefId="content_0" widgetRefId="GreenOFF" attribute="visible" />
+    </Binding>
+    
+	<Binding mode="twoWay">
+      <Source xsi:type="opcUa" refId="::Ampel:CountDown" attribute="node" />
+      <Target xsi:type="brease" contentRefId="content_0" widgetRefId="CountDownGreen" attribute="node" />
+    </Binding>
+  	<Binding mode="twoWay">
+	  <Source xsi:type="opcUa" refId="::Ampel:CountDownGreenON" attribute="value" />
+	  <Target xsi:type="brease" contentRefId="content_0" widgetRefId="CountDownGreen" attribute="visible" />
+	</Binding>
+    <Binding mode="twoWay">
+      <Source xsi:type="opcUa" refId="::Ampel:CountDown" attribute="node" />
+      <Target xsi:type="brease" contentRefId="content_0" widgetRefId="CountDownRed" attribute="node" />
+    </Binding>
+  	<Binding mode="twoWay">
+	  <Source xsi:type="opcUa" refId="::Ampel:CountDownRedON" attribute="value" />
+	  <Target xsi:type="brease" contentRefId="content_0" widgetRefId="CountDownRed" attribute="visible" />
+	</Binding>
+</Bindings>
+</BindingsSet>

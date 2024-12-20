@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="6.0"?>
+<OpcUaSource FileVersion="10">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <Module Name="&lt;Default&gt;">
+    <Task Name="Ampel">
+      <Variable Name="CountDown" />
+      <Variable Name="LightGreen" />
+      <Variable Name="LightRed" />
+      <Variable Name="LightYellow" />
+      <Variable Name="LightGreenOFF" />
+      <Variable Name="LightRedOFF" />
+      <Variable Name="LightYellowOFF" />
+      <Variable Name="CountDownGreenON" />
+      <Variable Name="CountDownRedON" />
+    </Task>
+  </Module>
+</OpcUaSource>

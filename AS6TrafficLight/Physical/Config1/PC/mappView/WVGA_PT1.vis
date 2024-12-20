@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="WVGA_PT1" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="page_0" />
+  <Pages />
+  <Navigations />
+  <BindingsSets>
+    <BindingsSet refId="WVGA_PT1_contentProduction1" />
+    <BindingsSet refId="WVGA_PT1_contentNavigation" />
+    <BindingsSet refId="content_0" />
+  </BindingsSets>
+  <EventBindingsSets>
+    <EventBindingsSet refId="WVGA_PT1_contentAlarmList" />
+    <EventBindingsSet refId="WVGA_PT1_system" />
+    <EventBindingsSet refId="WVGA_PT1_contentNavigation" />
+  </EventBindingsSets>
+  <Dialogs />
+  <Contents>
+    <Content refId="content_0" />
+  </Contents>
+  <SnippetsSets />
+  <VariablesSets />
+  <ExpressionsSets />
+  <Configurations>
+    <Configuration key="activityCount" value="false" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+		  <SystemGesture2 touchPoints="2" />
+		  <SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

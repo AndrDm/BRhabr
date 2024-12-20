@@ -1,0 +1,4 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=SHA256 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=85 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                MBperSec                                    LREAL    0 "                                              7.9173249798727836"    0   14    1   10    1    0         
