@@ -17,6 +17,8 @@
 .cache/
 
 AS4SHA256/Binaries
-AS6TrafficLight/Binaries
 AS4SHA256/Temp
+AS6TCP/Binaries
+AS6TCP/Temp
+AS6TrafficLight/Binaries
 AS6TrafficLight/Temp

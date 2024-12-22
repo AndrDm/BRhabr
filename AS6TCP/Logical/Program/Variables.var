@@ -1,0 +1,8 @@
+VAR
+	counterOPC : UDINT;
+	counter : UDINT;
+	tcpServer : TcpServer;
+	tcpRecv : TcpRecv;
+	tcpOpen : TcpOpen;
+	tcpSend : TcpSend;
+END_VAR
